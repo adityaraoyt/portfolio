@@ -38,7 +38,7 @@ const { data: services } = await useFetch('/api/services')
   <article class="about active" data-page="about">
     <header>
       <h2 class="h2 article-title">
-        {{ $t('pageTitles.about') }}
+        About
       </h2>
     </header>
 
@@ -129,50 +129,6 @@ const { data: services } = await useFetch('/api/services')
       </section>
     </div>
 
-    <!-- clients -->
-
-    <section class="clients">
-      <h3 class="h3 clients-title">
-        Clients
-      </h3>
-
-      <ul class="clients-list has-scrollbar">
-        <li class="clients-item">
-          <a href="#">
-            <img src="images/logo-1-color.png" alt="client logo">
-          </a>
-        </li>
-
-        <li class="clients-item">
-          <a href="#">
-            <img src="images/logo-2-color.png" alt="client logo">
-          </a>
-        </li>
-
-        <li class="clients-item">
-          <a href="#">
-            <img src="images/logo-3-color.png" alt="client logo">
-          </a>
-        </li>
-
-        <li class="clients-item">
-          <a href="#">
-            <img src="images/logo-4-color.png" alt="client logo">
-          </a>
-        </li>
-
-        <li class="clients-item">
-          <a href="#">
-            <img src="images/logo-5-color.png" alt="client logo">
-          </a>
-        </li>
-
-        <li class="clients-item">
-          <a href="#">
-            <img src="images/logo-6-color.png" alt="client logo">
-          </a>
-        </li>
-      </ul>
-    </section>
+    
   </article>
 </template>

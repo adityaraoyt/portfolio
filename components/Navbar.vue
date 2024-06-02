@@ -7,31 +7,31 @@
     <ul class="navbar-list">
       <li class="navbar-item">
         <NuxtLink to="/" class="navbar-link">
-          {{ $t('pageTitles.about') }}
+          About
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/resume" class="navbar-link">
-          {{ $t('pageTitles.resume') }}
+          Resume
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/portfolio" class="navbar-link">
-          {{ $t('pageTitles.portfolio') }}
+          Portfolio
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/blog" class="navbar-link">
-          {{ $t('pageTitles.blog') }}
+          Blog
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
         <NuxtLink to="/contact" class="navbar-link">
-          {{ $t('pageTitles.contact') }}
+          Contact
         </NuxtLink>
       </li>
     </ul>

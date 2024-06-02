@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
-    '@intlify/nuxt3',
+    
   ],
   experimental: {
     reactivityTransform: true,

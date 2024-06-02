@@ -8,7 +8,7 @@ useHead({
   <article class="contact active" data-page="contact">
     <header>
       <h2 class="h2 article-title">
-        {{ $t('pageTitles.contact') }}
+        Contact Me
       </h2>
     </header>
 

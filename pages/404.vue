@@ -1,7 +1,7 @@
 <script setup>
 const router = useRouter()
 useHead({
-  title: 'Ooups!',
+  title: 'Oops!',
 })
 </script>
 

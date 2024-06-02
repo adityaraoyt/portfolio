@@ -7,7 +7,7 @@ useHead({
     lang: locale,
   },
   titleTemplate: (pageTitle) => {
-    return pageTitle ? `${pageTitle} - Azad Furkan ŞAKAR` : 'Azad Furkan ŞAKAR'
+    return pageTitle ? `${pageTitle} - Aditya Rao` : 'Aditya Rao'
   },
   link: [
     {
