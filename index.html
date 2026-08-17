@@ -6,31 +6,47 @@
     <meta name="description" content="Aditya Rao — AI Engineer building dependable, production-ready intelligent systems." />
     <title>Aditya Rao | AI Engineer</title>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+      })();
+    </script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Aditya Rao home">AR<span>.</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="header-actions">
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-label="Dark mode" aria-checked="false">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-sun" aria-hidden="true">☀</span>
+            <span class="theme-toggle-moon" aria-hidden="true">☾</span>
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
+      </div>
     </header>
 
     <main id="top">
       <section class="hero section">
-        <p class="eyebrow"><span></span> AI Engineer · Phoenix, Arizona</p>
+        <p class="eyebrow"><span></span> AI Engineer · Mumbai, India</p>
         <h1>Building AI systems that are <em>useful</em> in the real world.</h1>
         <p class="hero-copy">I’m Aditya Rao, an AI Engineer who turns ambitious ideas into reliable, production-ready products—from LLM and retrieval systems to intuitive full-stack experiences.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="mailto:arao87@asu.edu">Let’s talk <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="mailto:avrao1890@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="https://www.linkedin.com/in/adityaraoyt/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
         <div class="impact-row" aria-label="Selected impact">
           <div><strong>30%</strong><span>fewer hallucination-prone responses</span></div>
-          <div><strong>25%</strong><span>faster response latency</span></div>
-          <div><strong>35%</strong><span>higher chatbot conversion</span></div>
+          <div><strong>25%</strong><span>faster responses</span></div>
+          <div><strong>35%</strong><span>higher inbound lead conversion</span></div>
         </div>
       </section>
 
@@ -79,9 +95,26 @@
       <section id="contact" class="contact section">
         <p class="section-label">05 / Contact</p>
         <h2>Let’s build something<br />that matters.</h2>
-        <a class="email-link" href="mailto:arao87@asu.edu">arao87@asu.edu <span>↗</span></a>
+        <a class="email-link" href="mailto:avrao1890@gmail.com">avrao1890@gmail.com <span>↗</span></a>
         <div class="footer-line"><span>Available for AI Engineer &amp; Full-Stack AI opportunities</span><a href="https://www.linkedin.com/in/adityaraoyt/" target="_blank" rel="noreferrer">LinkedIn</a><span>© 2026 Aditya Rao</span></div>
       </section>
     </main>
+    <script>
+      const toggle = document.getElementById('theme-toggle');
+      const root = document.documentElement;
+
+      const setTheme = (theme) => {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        toggle.setAttribute('aria-checked', theme === 'dark');
+      };
+
+      setTheme(root.getAttribute('data-theme') || 'light');
+
+      toggle.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        setTheme(next);
+      });
+    </script>
   </body>
 </html>
