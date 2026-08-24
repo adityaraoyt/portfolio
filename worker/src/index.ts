@@ -163,11 +163,22 @@ Question: ${question}`;
   }
 
   const data = (await response.json()) as {
-    candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+    candidates?: Array<{
+      content?: { parts?: Array<{ text?: string }> };
+      finishReason?: string;
+    }>;
   };
-  const answer = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
-  if (!answer) throw new Error("Empty generation response");
-  return answer;
+  const candidate = data.candidates?.[0];
+const answer = candidate?.content?.parts
+  ?.map((part) => part.text || "")
+  .join("")
+  .trim();
+
+if (!answer) {
+  throw new Error(
+    `No generated text. finishReason=${candidate?.finishReason || "unknown"}`
+  );
+}
 }
 
 function buildSources(matches: DocumentMatch[]): ChatResponse["sources"] {
