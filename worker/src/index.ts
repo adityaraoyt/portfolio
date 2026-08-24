@@ -179,6 +179,7 @@ if (!answer) {
     `No generated text. finishReason=${candidate?.finishReason || "unknown"}`
   );
 }
+return answer;
 }
 
 function buildSources(matches: DocumentMatch[]): ChatResponse["sources"] {
