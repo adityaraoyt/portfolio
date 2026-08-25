@@ -2,95 +2,111 @@
 
 ## Overview
 
-Aditya Rao is an AI Engineer based in Mumbai, India. He builds dependable, production-ready intelligent systems — from LLM and retrieval systems to intuitive full-stack experiences. His tagline is: "Building AI systems that are useful in the real world."
+Aditya Rao is an AI Engineer based in Phoenix, Arizona, with 3+ years of experience building scalable, production-ready ML systems. He's shipped LLM platforms, RAG pipelines, and AI applications across Azure and AWS, working end-to-end from system design to deployment. His tagline: "Building AI systems that are useful in the real world."
 
-**Location:** Mumbai, India  
-**Role:** AI Engineer  
-**LinkedIn:** https://www.linkedin.com/in/adityaraoyt/  
-**Email:** avrao1890@gmail.com  
+**Location:** Mumbai, India
+**Role:** AI Engineer
+**LinkedIn:** https://www.linkedin.com/in/adityaraoyt/
+**Email:** avrao1890@gmail.com
+**Languages:** English (Professional), Hindi (Native/Bilingual), French (Elementary)
 **Availability:** Open to AI Engineer and Full-Stack AI opportunities
 
 ## Impact Highlights
 
-- Reduced hallucination-prone responses by **30%** through production observability tooling
-- Improved response latency by **25%**
-- Increased inbound lead conversion by **35%** with a lead-capturing website chatbot
+- Enabled **3+ production use cases** on a shared architecture, cutting per-use-case dev effort by **50%**
+- Reduced hallucination-prone responses by **30%** and cut average response latency by **25%**
+- Improved retrieval debugging efficiency by **40%**
+- Increased inbound lead capture by **35%** with an AI-driven website chatbot
+- Achieved **96% detection accuracy** on an explainable-AI pedestrian detection system (ADAS)
+- Achieved **94% precision** on a DeepLabV3 semantic segmentation model (Cityscapes dataset)
+- Achieved **95% lip-sync accuracy** on a fine-tuned text-to-video pipeline
+- Reduced API response time by **45%**, supporting **30% more concurrent users**
 
 ## About
 
-Aditya focuses on shipping scalable machine-learning systems that people can trust and teams can operate. He pairs strong software fundamentals with hands-on work in generative AI, MLOps, and cloud platforms. His work sits at the intersection of AI, cloud, and human experience.
+Aditya focuses on shipping scalable machine-learning systems that people can trust and teams can operate. He pairs strong software fundamentals with hands-on generative AI, MLOps, and cloud platform experience — spanning computer vision, LLM/RAG systems, and full-stack development.
 
 ### AI and ML Skills
 
 - Generative AI and LLMs
-- RAG and AI Search
-- Machine Learning
-- MLOps and evaluation
+- RAG pipelines and Azure AI Search
+- MLOps and evaluation tooling
+- Computer vision (Detectron2, DeepLabV3, Grad-CAM)
 
 ### Engineering Skills
 
-- Python
-- Azure OpenAI
-- Azure Cosmos DB
-- Azure Container Apps
+- Kubernetes, MLOps
+- Microsoft Azure (OpenAI Service, Cosmos DB, Container Apps, Static Web Apps, App Service, Blob Storage, Key Vault)
+- Python, JavaScript, Node.js
+- React / Redux, AWS Lambda, DynamoDB
 
 ### Product Skills
 
 - Full-stack development
-- Chatbot experiences
-- Observability
-- Data visualization
+- Conversational AI / chatbot experiences
+- Observability and evaluation tooling
+- Voice-driven and animated 3D avatar interfaces
 
 ## Experience
 
-### AI Engineer — Brownstone Private Security (Recent)
+### AI Engineer — Brownstone Private Security
+**Phoenix, AZ · June 2025 – June 2026**
 
-**Location:** Phoenix, AZ
+- Owned end-to-end development of a reusable AI avatar chatbot platform on Azure (Azure OpenAI, AI Search, Cosmos DB, Container Apps, Static Web Apps, App Service, Blob Storage, Key Vault), enabling 3+ production use cases and cutting per-use-case dev effort by 50%
+- Built production observability and evaluation tooling — retrieval diagnostics, source-grounded UI citations, latency instrumentation — improving retrieval debugging by 40%, cutting hallucination-prone responses by 30%, and reducing latency by 25%
+- Developed a website chatbot for visitor education and lead capture, improving lead capture rate by 35% over a static contact form
 
-Built and shipped AI products that connect modern language models with real business needs.
+### AI Intern — KPIT
+**Novi, Michigan · February 2025 – May 2025**
 
-Key accomplishments:
-- Created a reusable AI-avatar chatbot platform with Azure OpenAI, AI Search, Cosmos DB, and Container Apps
-- Developed production observability tooling, reducing hallucination-prone responses by 30% and response latency by 25%
-- Launched a lead-capturing website chatbot that improved conversion by 35%
-- Produced AI-powered training videos and product demonstrations using HeyGen
+- Built an AI pedestrian detection system (Detectron2 + Grad-CAM) achieving 96% accuracy for ADAS, with explainable AI features
+- Built and optimized a DeepLabV3 semantic segmentation model achieving 94% precision on Cityscapes for autonomous vehicle applications
+- Improved model interpretability and safety-critical decision-making by 60% via neural visualization techniques
 
-### Software and Web Engineering (Earlier Career)
+### AI Full Stack Developer — Technology at Arizona State University
+**Tempe, AZ · August 2024 – February 2025**
 
-**Location:** Experience across India and the United States
+- Engineered REST APIs (AWS Lambda, DynamoDB) integrated with React Redux, cutting API response time by 45% and supporting 30% more concurrent users
+- Reduced React component render cycles by 35% and achieved 60% faster state updates
+- Led platform-wide UI/UX redesign, improving accessibility by 35% and user satisfaction by 40%
+- Implemented voice-to-voice interaction with a fully animated 3D avatar, boosting user satisfaction by 55% and accessibility for users with limited mouse/keyboard control
 
-Built a foundation in frontend engineering, responsive web development, testing, and delivering reliable product features.
+### Machine Learning Intern — DaveAI
+**May 2024 – August 2024**
+
+- Built a containerized text-to-video pipeline (Docker) with TTS and audio sync, cutting generation time by 35% and boosting throughput by 42%
+- Fine-tuned a deep learning model to 95% lip-sync accuracy
+- Integrated ESRGAN for video upscaling, improving visual quality by 60% and reducing file sizes by 20%
+
+### Associate Software Engineer — UST
+**Pune, Maharashtra, India · January 2023 – June 2023**
+
+- Implemented unit testing achieving 80%+ code coverage across all repositories
+- Reduced code duplication to 2%
+- Built server-side search, sort, and pagination, boosting data retrieval performance by 60% on a cybersecurity portal
+
+### Engineering Trainee — UST Product Engineering
+**Pune, Maharashtra, India · July 2022 – January 2023**
+
+### Intern — Jindal Steel & Power Ltd.
+**Gurugram, Haryana, India · March 2021 – June 2021**
+
+- Built a chatbot (Node.js, Google Dialogflow) to streamline employee data retrieval across APIs, reducing manual labor by 20%
+- Deployed the chatbot to Hangouts and Telegram, cutting data retrieval times by 80%
 
 ## Education
 
-### Master of Science, Computer Science
+### Master's Degree, Computer Science
+**Ira A. Fulton Schools of Engineering, Arizona State University**
+August 2023 – May 2025
 
-**Institution:** Ira A. Fulton Schools of Engineering at Arizona State University  
-**Dates:** 2023 — 2025  
-**GPA:** 3.70
+### Bachelor of Technology, Computer Science
+**MIT World Peace University**
+2018 – 2022
 
-### Selected Coursework
-
-Algorithms, Human-Computer Interaction, Data Visualization, Operationalizing Deep Learning, Generative AI, Software Security, Applied Cryptography
-
-### Credentials
-
-- Kaggle: Intermediate Machine Learning
-- HackerRank: Python (Basic)
-- LinkedIn Learning: MLOps Essentials
-
-## Research
-
-### Chatbots: A Futuristic Approach to Therapy (2022)
-
-Research publication on therapeutic chatbot applications.
-
-### Video Based Human Activity Detection (2022)
-
-Research on computer vision and human activity detection from video.
 
 ## Contact
 
 - **Email:** avrao1890@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/adityaraoyt/
-- **Availability:** Available for AI Engineer and Full-Stack AI opportunities
+- **Availability:** Open to AI Engineer and Full-Stack AI opportunities
