@@ -128,7 +128,7 @@
         "assistant",
         error instanceof Error && error.message.includes("Rate limit")
           ? error.message
-          : "Sorry, I'm unavailable right now. Please try again later or email avrao1890@gmail.com.",
+          : "I am unable to provide you more information right now. Please try again later or email avrao1890@gmail.com.",
       );
     } finally {
       setLoading(false);

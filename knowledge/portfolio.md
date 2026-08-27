@@ -2,7 +2,7 @@
 
 ## Overview
 
-Aditya Rao is an AI Engineer based in Phoenix, Arizona, with 3+ years of experience building scalable, production-ready ML systems. He's shipped LLM platforms, RAG pipelines, and AI applications across Azure and AWS, working end-to-end from system design to deployment. His tagline: "Building AI systems that are useful in the real world."
+Aditya Rao is an AI Engineer based in Mumbai, with 3+ years of experience building scalable, production-ready ML systems. He's shipped LLM platforms, RAG pipelines, and AI applications across Azure and AWS, working end-to-end from system design to deployment. His tagline: "Building AI systems that are useful in the real world."
 
 **Location:** Mumbai, India
 **Role:** AI Engineer
