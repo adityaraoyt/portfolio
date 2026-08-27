@@ -169,17 +169,20 @@ Question: ${question}`;
     }>;
   };
   const candidate = data.candidates?.[0];
-const answer = candidate?.content?.parts
-  ?.map((part) => part.text || "")
-  .join("")
-  .trim();
+  if (candidate?.finishReason === "PROHIBITED_CONTENT") {
+    return "I can't answer that request, but I can help with Aditya's experience, skills, education, or projects.";
+  }
+  const answer = candidate?.content?.parts
+    ?.map((part) => part.text || "")
+    .join("")
+    .trim();
 
-if (!answer) {
-  throw new Error(
-    `No generated text. finishReason=${candidate?.finishReason || "unknown"}`
-  );
-}
-return answer;
+  if (!answer) {
+    throw new Error(
+      `No generated text. finishReason=${candidate?.finishReason || "unknown"}`
+    );
+  }
+  return answer;
 }
 
 function buildSources(matches: DocumentMatch[]): ChatResponse["sources"] {
