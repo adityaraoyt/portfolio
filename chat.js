@@ -71,10 +71,18 @@
     wrapper.innerHTML = sources
       .map(
         (source) =>
-          `<a class="chat-message-source" href="${source.url_anchor}">${source.section}</a>`,
+          `<button type="button" class="chat-widget-suggestion" data-source-url="${source.url_anchor}" data-source-text="${source.section}">${source.section}</button>`,
       )
       .join("");
     messagesEl.appendChild(wrapper);
+    
+    wrapper.querySelectorAll("[data-source-url]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const text = button.getAttribute("data-source-text");
+        if (text) sendMessage(text);
+      });
+    });
+    
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
